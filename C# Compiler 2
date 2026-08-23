@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace HelloWorld
+{
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+			string name = "Raven Josh";
+			Console.WriteLine(name);
+
+			int age;
+			age = 19;
+			Console.WriteLine(age);
+
+			bool hatdog = true;
+			Console.WriteLine(hatdog);
+
+			double pookie = 67.69;
+			Console.WriteLine(pookie);
+
+			char store = 'wookie';
+			Console.WriteLine(store);
+
+			Console.WriteLine("Hi my name is "+name+", I am "+age+" years old. I bought a tilapia for a price of "+pookie+"per kilo. The name of the store is "+store+" and it is "+hatdog+" for selling a high value fish.");
+		}
+	}
+}
