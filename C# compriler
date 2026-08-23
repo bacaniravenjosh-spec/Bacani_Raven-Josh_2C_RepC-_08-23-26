@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace HelloWorld
+{
+	public class Program
+	{
+		public static void Main(string[] args)
+		{string name = "Raven Josh";
+		 int age = 19;
+		 double height = 177.8;
+		 bool masarap = true;
+		
+			Console.WriteLine("Age:" + age);
+			Console.WriteLine("Name:" + name);
+			Console.WriteLine("Height:" + height);
+			Console.WriteLine("Masarap Kaba:" + masarap);
+		}
+	}
+}
