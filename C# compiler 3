@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace HelloWorld
+{
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+			string 	Name = "Raven Josh";
+			int Age = 19;
+			double Money = 67.69;
+			char Grade = 'F';
+			bool Legit = true;
+
+			Console.Write("What is your name? ");
+			string name = (Console.Readline());
+			Console.Write("How old are you? ");
+			int age = Convert.ToInt32(Console.Readline());
+			Console.Write("How much money do you have? ");
+			double price = double.parse(Console.Readline());
+			Console.Write("What letter grade did you get? ");
+			char grade = Convert.ToChar(Console.Readline());
+			Console.Write("are you a student? (true/false): ");
+			bool istudent = bool.parse(Console.Readline());
+
+		}
+	}
+}
